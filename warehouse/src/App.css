@@ -3,3 +3,15 @@
   flex-direction: column;
 }
 
+/* Announcement Bar */
+
+.announcementMainContainer{
+  background-color: #F5F5FA;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 8rem;
+}
+.announcementChild1{
+  font-size: .92rem;
+  font-weight: 500;
+}
