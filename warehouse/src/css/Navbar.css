@@ -1,0 +1,64 @@
+.navbarMainContainer{
+  padding-top: 1.35rem;
+  padding-bottom: 1.3rem;
+}
+.logoContainer{
+  width : 14.7%;
+}
+.logoContainer > a > img {
+  width: 100%;
+  height: auto;
+}
+.navbarChildContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.linkContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.95rem;
+  width: 40%;
+}
+.linkContainerChild > a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(81, 80, 80);;
+  font-weight: 500;
+  transition: color .3s ease;
+}
+.linkContainerChild > a:hover {
+  color: #ed3232;
+}
+.buttonContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonLogIn > a {
+  color: rgb(81, 80, 80);
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+.buttonLogIn > a :hover {
+  color: #ed3232;
+}
+.buttonSignUp{
+  margin-left: 2rem;
+}
+.buttonSignUp > a{
+  border: 1px solid #ed3232;
+  border-radius: 3px;
+  color : #ed3232;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: .6rem 2rem;
+  background-color: white;
+  transition: background-color 0.5s ease;
+}
+.buttonSignUp > a:hover{
+  background-color: #ed3232;
+  color: white;
+}

@@ -3,15 +3,38 @@
   flex-direction: column;
 }
 
+.page-width{
+  padding-right: 13rem;
+  padding-left: 13rem;
+}
+
+
 /* Announcement Bar */
 
 .announcementMainContainer{
   background-color: #F5F5FA;
   display: flex;
   justify-content: flex-end;
-  padding: 1rem 8rem;
+  padding-top: .9rem;
+  padding-bottom: .9rem;
 }
 .announcementChild1{
   font-size: .92rem;
   font-weight: 500;
+}
+
+/* Scrollbar */
+
+body::-webkit-scrollbar {
+  width: 0.6rem;
+  border-radius: .1rem;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(246, 246, 246, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(180, 179, 179);
+  border-radius: 0rem;
 }

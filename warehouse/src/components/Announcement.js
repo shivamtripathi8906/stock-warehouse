@@ -3,7 +3,7 @@ import React from 'react'
 function Announcement() {
   return (
     <div>
-      <div className='announcementMainContainer'>
+      <div className='announcementMainContainer page-width'>
         <div className='announcementChild1'>
           <p>Contact Us : +91 66671 66671</p>
         </div>
@@ -12,4 +12,4 @@ function Announcement() {
   )
 }
 
-export default Announcement
+export default Announcement;
