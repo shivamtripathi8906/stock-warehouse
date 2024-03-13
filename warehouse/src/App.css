@@ -7,7 +7,10 @@
   padding-right: 13rem;
   padding-left: 13rem;
 }
-
+.paddingMain{
+  padding-top: 54px;
+  padding-bottom: 54px;
+}
 
 /* Announcement Bar */
 

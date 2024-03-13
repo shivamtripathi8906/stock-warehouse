@@ -1,0 +1,7 @@
+.imageBlockMainContainer{
+  width: 90%;
+}
+.imageBlockMainContainer> img{
+  width: 100%;
+  height: auto;
+}

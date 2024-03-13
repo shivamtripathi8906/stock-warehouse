@@ -1,37 +1,9 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-function ServicesHomepage() {
-  return (
-    <div>
-      <div>
-        fe
-      </div>
-      <div>
-        fe
-      </div>
-      <div>
-        fe
-      </div>
-      <div>
-        fe
-      </div>
-      <div>
-        fe
-      </div>
-      <div>
-        fe
-      </div>
-      <div>
-        fe
-      </div>
-      <div>
-        fe
-      </div>
-      <div>
-        fe
-      </div>
-    </div>
-  )
+export default class ServicesHomepage extends Component {
+  render() {
+    return (
+      <div>ServicesHomepage</div>
+    )
+  }
 }
-
-export default ServicesHomepage;

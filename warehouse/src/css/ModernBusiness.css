@@ -1,0 +1,38 @@
+.modernMainCoverContainer{
+  background: #f5f5fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modernMainContainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-right: -15px;
+  margin-left: -15px;
+  max-width: 1140px;
+}
+.modernContentHeading{
+  font-weight: 600;
+  font-size: 27px;
+  margin-top: 40.05px;
+  margin-bottom: 27px;
+}
+.modernContentContainer{
+  max-width: 50%;
+}
+.modernImageContainer{
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modernContentNumbers{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40.5px;
+}
